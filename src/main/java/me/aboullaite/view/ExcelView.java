@@ -38,7 +38,7 @@ public class ExcelView extends AbstractXlsView{
         font.setColor(HSSFColor.WHITE.index);
         style.setFont(font);
 
-
+        
         // create header row
         Row header = sheet.createRow(0);
         header.createCell(0).setCellValue("FirstName");
